@@ -1,6 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import Home from "./Home";
+import Input from "./Input";
 import Navbar from "./Navbar";
 
 const styles = {
@@ -15,8 +16,10 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+
       <div css={styles.content}>
         <Home />
+        <Input />
       </div>
     </div>
   );
